@@ -1,7 +1,7 @@
 .moviesBoard {
     display: flex;
     flex-direction: column;
-    margin-top: 130px;/*hogy tudom megoldani azt hogy ne kelljen margin-al el tolnom*/
+    margin-top: 130px;
     padding-left: 40px;
 }
 
