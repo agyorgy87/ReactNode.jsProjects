@@ -29,6 +29,39 @@ app.get("/all-movies", (request, response) => {
     })
 })
 
+//filtered by action movies
+app.get("/all-movies-by-action/:type", (request, response) => {
+ 
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const actionMovies = JSON.parse(data);
+        const filteredActionMovies = actionMovies.filter(action => action.type === request.params.type);
+        const stringifiedActionMovies = JSON.stringify(filteredActionMovies);
+        response.end(stringifiedActionMovies);
+    })
+})
+
+//filtered by scifi movies
+app.get("/all-movies-by-scifi/:type", (request,response) => {
+
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const scifiMovies = JSON.parse(data);
+        const filteredScifiMovies = scifiMovies.filter(scifi => scifi.type === request.params.type);
+        const stringifiedScifiMovies = JSON.stringify(filteredScifiMovies);
+        response.end(stringifiedScifiMovies);
+    })
+})
+
+//filtered by fantasy movies
+app.get("/all-movies-by-fantasy/:type", (request,response) => {
+
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const fantasyMovies = JSON.parse(data);
+        const filteredFantasyMovies = fantasyMovies.filter(fantasy => fantasy.type === request.params.type);
+        const stringifiedFantasyMovies = JSON.stringify(filteredFantasyMovies);
+        response.end(stringifiedFantasyMovies);
+    })
+})
+
 //API for icons
 app.get("/icons/:filename", function (req, res) {
     res.sendFile(path.join(__dirname, "icons/" + req.params.filename));
