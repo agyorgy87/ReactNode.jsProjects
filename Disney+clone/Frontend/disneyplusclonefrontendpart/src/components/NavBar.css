@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.navBarMenuBox {
+    background-color: #000;
+}
+
+.disneyLogo {
+    max-width: 80px;
+    max-height: 80px;
+    margin-left: 30px;
+}
+
+.NavBarMenuTextStyle {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: white !important;
+}
+
+.NavBarMenuTextStyle:after {
+    height: 2px;
+    width: 100%;
+    content: '';
+    position: absolute;
+    transform: scaleX(0);
+    bottom: 0;
+    left: 0;
+    background-color: white !important;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+
+.NavBarMenuTextStyle:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    /*
+    color: white !important;
+    background-color: white !important;
+    */
+}
+
+.databaseContent{
+    color: white !important;
+}
