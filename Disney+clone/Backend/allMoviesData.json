@@ -1,5 +1,4 @@
-[// hány darab jsonbe lenne érdemes szét szedni az adatokat?
-//oldalak megszerkesztése grid vagy flexbox?
+[
     {
         "actionMovies":[
             {"typeOfProduction": "movie",
