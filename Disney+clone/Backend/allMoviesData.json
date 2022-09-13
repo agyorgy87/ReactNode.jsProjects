@@ -5,7 +5,7 @@
              "disyney+only": false,
              "movieMainTitle": "DIE HARD",
              "movieSecondaryTitle": "DRÁGÁN ADD AZ ÉLETED",
-             "type": "akció, thriller",
+             "type": "action",
              "year": "1988",
              "time": "2 óra 12 perc",
              "description": "A New York-i zsaru nem túl biztató esélyekkel néz szembe a karácsonyi kaliforniai vakációját megszakítja egy terroristatámadás az irodaház ellen, ahol a tőle elhidegült felesége dolgozik.",
@@ -21,28 +21,30 @@
              "disyney+only": false,
              "movieMainTitle": "DIE HARD 2",
              "movieSecondaryTitle": "MÉG DRÁGÁBB AZ ÉLETED",
-             "type": "akció, thriller",
+             "type": "action",
              "year": "1990",
              "time": "2 óra 4 perc",
              "description": "John McClane-nek zsoldosokkal kel felvennie a küzdelmet, akik egy repülőtér irányítóközpontját foglalják el, és azzal fenyegetőznek, hogy repülőket fognak egymásnak irányítani, ha nem teljesülnek a követeléseik.",
              "ageLimit": "16+",
              "details": "John McClane-nek zsoldosokkal kel felvennie a küzdelmet, akik egy repülőtér irányítóközpontját foglalják el, és azzal fenyegetőznek, hogy repülőket fognak egymásnak irányítani, ha nem teljesülnek a követeléseik.",
              "director": "Renny Harlin",
-             "actors": "Bruce Willis, Bonnie Bedelia, William Atherton, Reginald VelJohnson, Franco Nero, William Sadler"               
+             "actors": "Bruce Willis, Bonnie Bedelia, William Atherton, Reginald VelJohnson, Franco Nero, William Sadler",
+             "icon": "dh2.PNG"               
             },
             {"typeOfProduction": "movie",
             "collection": true,
             "disyney+only": false,
              "movieMainTitle": "DIE HARD 3",
              "movieSecondaryTitle": "AZ ÉLET MINDIG DRÁGA",
-             "type": "akció, thriller",
+             "type": "action",
              "year": "1995",
              "time": "2 óra 9 perc",
              "description": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
              "ageLimit": "16+",
              "details": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
              "director": "John McTiernan",
-             "actors": "Bruce Willis, Jeremy Irons, Samuel L. Jackson, Graham Greene, Colleen Camp, Larry Bryggman"            
+             "actors": "Bruce Willis, Jeremy Irons, Samuel L. Jackson, Graham Greene, Colleen Camp, Larry Bryggman",
+             "icon": "dh3.PNG"            
             },
             {
              "typeOfProduction": "series",
@@ -50,28 +52,30 @@
              "disyney+only": true,
              "movieMainTitle": "STAR WARS",
              "movieSecondaryTitle": "A MANDALÓRI",
-             "type": "sci-fi, akció/kaland",
+             "type": "scifi",
              "year": "2019-2020",
              "time": "35-45 perc",
              "description": "A Birodalom bukása után egy magányos fegyveres tör át a törvénytelen galaxison",
              "ageLimit": "14+",
              "details": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
              "director": "John Favreau",
-             "actors": "Pedro Pascal, Carl Weathers, Gina Carano, Omid Abtahi, Nick Nolte" 
+             "actors": "Pedro Pascal, Carl Weathers, Gina Carano, Omid Abtahi, Nick Nolte",
+             "icon": "mandalori.PNG"
             },
             {"typeOfProduction": "movie",
              "collection": true,
              "disyney+only": false,
              "movieMainTitle": "A Karib-Tenger Kalózai",
              "movieSecondaryTitle": "A Fekete Gyöngy Átka",
-             "tyype": "fantasy, akció/kaland",
+             "type": "fantasy",
              "year": "1995",
              "time": "2 óra 25 perc",
              "description": "Amikor a ravasz Barbossa kapitány ellopja Jack Sparrow hajóját és elrabolja gyönyörű lányát, Elizabeth-et, a lány gyermekkori barátja, Will Turner összefog Jackkel, hogy megmentsék Elizabeth-et és visszavegyék Jack hajóját a Fekete Gyöngyöt.",
              "ageLimit": "16+",
              "details": "...",
              "director": "Gore Verbinski",
-             "actors": "Johnny Depp, Geoffrey Rush, Orlando Boom, Keira Knigthley, Jack Davenport, Kevin R. McNally"            
+             "actors": "Johnny Depp, Geoffrey Rush, Orlando Boom, Keira Knigthley, Jack Davenport, Kevin R. McNally",
+             "icon": "potc1.PNG"           
             }            
 
 ]
