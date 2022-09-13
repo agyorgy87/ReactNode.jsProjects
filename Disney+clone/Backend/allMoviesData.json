@@ -1,6 +1,5 @@
 [
-    {
-        "actionMovies":[
+    
             {"typeOfProduction": "movie",
              "collection": true,
              "disyney+only": false,
@@ -13,7 +12,9 @@
              "ageLimit": "16+", 
              "details": "A New York-i zsaru nem túl biztató esélyekkel néz szembe a karácsonyi kaliforniai vakációját megszakítja egy terroristatámadás az irodaház ellen, ahol a tőle elhidegült felesége dolgozik.", 
              "director": "John McTiernan",
-             "actors": "Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason, De'voreaux White, William Atherton"         
+             "actors": "Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason, De'voreaux White, William Atherton", 
+             "icon": "dh1.PNG",
+             "image": "dh1.jpg"
             },
             {"typeOfProduction": "movie",
              "collection": true,
@@ -72,6 +73,5 @@
              "director": "Gore Verbinski",
              "actors": "Johnny Depp, Geoffrey Rush, Orlando Boom, Keira Knigthley, Jack Davenport, Kevin R. McNally"            
             }            
-            ] 
-    }
+
 ]
