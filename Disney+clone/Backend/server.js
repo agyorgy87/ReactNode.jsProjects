@@ -29,6 +29,17 @@ app.get("/all-movies", (request, response) => {
     })
 })
 
+//filtered by all movies type
+app.get("/all-movies-type/:typeOfProduction", (request, response) => {
+
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const allMoviesType = JSON.parse(data);
+        const filteredAllMoviesType = allMoviesType.filter(type => type.typeOfProduction === request.params.typeOfProduction);
+        const stringifiedAllMoviesType = JSON.stringify(filteredAllMoviesType);
+        response.end(stringifiedAllMoviesType);
+    })
+})
+
 //filtered by action movies
 app.get("/all-movies-by-action/:type", (request, response) => {
  
