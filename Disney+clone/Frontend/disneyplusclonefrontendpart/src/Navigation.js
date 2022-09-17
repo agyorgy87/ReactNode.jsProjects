@@ -10,11 +10,11 @@ const Navigation = () => {
   return (
     <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="search" element={<Search />} />
-          <Route path="mylist" element={<MyList />} />
-          <Route path="movies" element={<Movies />} />
-          <Route path="series" element={<Series />} />
+          <Route path={"/"} element={<Home />} exact/>
+          <Route path={"search"} element={<Search />} />
+          <Route path={"mylist"} element={<MyList />} />
+          <Route path={"movies"} element={<Movies />} />
+          <Route path={"series"} element={<Series />} />
         </Routes>
     </Router>
   );
