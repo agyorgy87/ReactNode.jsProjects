@@ -1,51 +1,98 @@
 [   
-            {
-             "movieTitle": "Die Hard",
-             "ageLimit": "16+", 
-             "genre": "akció",
-             "releaseDate": "1988",
-             "movieLength": "2óra 12perc",
-             "director": "John McTiernan",
-             "actors": "Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason, De'voreaux White, William Atherton", 
-             "description": "A New York-i zsaru nem túl biztató esélyekkel néz szembe a karácsonyi kaliforniai vakációját megszakítja egy terroristatámadás az irodaház ellen, ahol a tőle elhidegült felesége dolgozik.",
-             "icon": "dh1.PNG",
-             "image": "diehard.jpg"
-            },
-            {
-             "movieTitle": "Die Hard 2",
-             "ageLimit": "16+",
-             "genre": "akció",
-             "releaseDate": "1990",
-             "movieLength": "2óra 4perc",
-             "director": "Renny Harlin",
-             "actors": "Bruce Willis, Bonnie Bedelia, William Atherton, Reginald VelJohnson, Franco Nero, William Sadler",
-             "description": "John McClane-nek zsoldosokkal kel felvennie a küzdelmet, akik egy repülőtér irányítóközpontját foglalják el, és azzal fenyegetőznek, hogy repülőket fognak egymásnak irányítani, ha nem teljesülnek a követeléseik.",
-             "icon": "dh2.PNG",
-             "image": "diehard2.jpg"               
-            },
-            {
-             "movieTitle": "Die Hard 3",
-             "ageLimit": "16+",
-             "genre": "akció",
-             "releaseDate": "1995",
-             "time": "2óra 9perc",
-             "director": "John McTiernan",
-             "actors": "Bruce Willis, Jeremy Irons, Samuel L. Jackson, Graham Greene, Colleen Camp, Larry Bryggman",
-             "description": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
-             "icon": "dh3.PNG",
-             "image": "diehard3.jpg"            
-            },
-            {
-             "movieTitle": "A Karib-Tenger Kalózai",
-             "type": "fantasy",
-             "year": "1995",
-             "time": "2 óra 25 perc",
-             "description": "Amikor a ravasz Barbossa kapitány ellopja Jack Sparrow hajóját és elrabolja gyönyörű lányát, Elizabeth-et, a lány gyermekkori barátja, Will Turner összefog Jackkel, hogy megmentsék Elizabeth-et és visszavegyék Jack hajóját a Fekete Gyöngyöt.",
-             "ageLimit": "16+",
-             "details": "...",
-             "director": "Gore Verbinski",
-             "actors": "Johnny Depp, Geoffrey Rush, Orlando Boom, Keira Knigthley, Jack Davenport, Kevin R. McNally",
-             "icon": "potc1.PNG"           
-            }            
-
+    {
+        "movieTitle": "DIE HARD",
+        "ageLimit": "16+", 
+        "genre": "akció",
+        "releaseDate": "1988",
+        "movieLength": "2óra 12perc",
+        "director": "John McTiernan",
+        "actors": "Bruce Willis, Bonnie Bedelia, Reginald VelJohnson, Paul Gleason", 
+        "description": "A New York-i zsaru nem túl biztató esélyekkel néz szembe a karácsonyi kaliforniai vakációját megszakítja egy terroristatámadás az irodaház ellen, ahol a tőle elhidegült felesége dolgozik.",
+        "icon": "dh1.PNG",
+        "image": "diehard.jpg"
+    },
+    {
+        "movieTitle": "DIE HARD 2",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "1990",
+        "movieLength": "2óra 4perc",
+        "director": "Renny Harlin",
+        "actors": "Bruce Willis, Bonnie Bedelia, William Atherton, Reginald VelJohnson, Franco Nero",
+        "description": "John McClane-nek zsoldosokkal kel felvennie a küzdelmet, akik egy repülőtér irányítóközpontját foglalják el, és azzal fenyegetőznek, hogy repülőket fognak egymásnak irányítani, ha nem teljesülnek a követeléseik.",
+        "icon": "dh2.PNG",
+        "image": "diehard2.jpg"               
+    },
+    {
+        "movieTitle": "DIE HARD 3",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "1995",
+        "movieLength": "2óra 9perc",
+        "director": "John McTiernan",
+        "actors": "Bruce Willis, Jeremy Irons, Samuel L. Jackson",
+        "description": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
+        "icon": "dh3.PNG",
+        "image": "diehard3.jpg"            
+    },   
+    {
+        "movieTitle": "ÁL/ARC",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "1997",
+        "movieLength": "2óra 19perc",
+        "director": "John Woo",
+        "actors": "John Travolta, Nicholas Cage, Joan Allen, Alessandro Nivola",
+        "description": "Egy FBI-ügynök és egy gyilkos pszichopata személyazonosságot cserélnek - egymás bőrébe bújnak - John Woo lebilincselő akciófilmjében.",
+        "icon": "faceoff.PNG",
+        "image": "faceoff.jpg" 
+    },   
+    {
+        "movieTitle": "A FÜGGETLENSÉG NAPJA",
+        "ageLimit": "12+",
+        "genre": "akció",
+        "releaseDate": "1996",
+        "movieLength": "2óra 25perc",
+        "director": "Roland Emmerich",
+        "actors": "Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonald",
+        "description": "Amikor földönkívüliek érkeznek a földre, és azzal fenyegetnek, hogy kiírjták az emberi fajt, egy maroknyi túlélő tudja csak megállítani őket, gyengébb technológiával, de ésszel és bátorsággal.",
+        "icon": "independenceday.PNG",
+        "image": "independenceday.jpg" 
+    },
+    {
+        "movieTitle": "AZ ELNÖK KÜLÖNGÉPE",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "1997",
+        "movieLength": "2óra 5perc",
+        "director": "Wolfgang Petersen",
+        "actors": "HArrison Ford, Garry Oldman, Wendy Crewson, Paul Guilfoyle",
+        "description": "Az Egyesült Államok elnökének gépét terroristák térítik el. Az elnök ököllel és ravaszsággal száll szembe a támadókkal a zsúfolt gépen, míg az alelnök a Fehér Házból próbál tárgyalni velük.",
+        "icon": "airforceone.PNG",
+        "image": "airforceone.jpg" 
+    }, 
+    {
+        "movieTitle": "FÉKTELENÜL",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "1994",
+        "movieLength": "1óra 56perc",
+        "director": "Jan de Bont",
+        "actors": "Keanu Reeves, Dennis Hopper, Sandra Bullock, Joe Morton, Jeff Daniels",
+        "description": "Egy Los Angelesi-i rendőrnek(Keanu Reeves) és a buszt vezető egyik rettegő utasnak(Sandra Bullock) kell megállítania egy ámokfutó járatot, ami felrobban, ha 80km/h alá lassít.",
+        "icon": "speed.PNG",
+        "image": "speed.jpg" 
+    },
+    {
+        "movieTitle": "A KÉM",
+        "ageLimit": "16+",
+        "genre": "vígjáték",
+        "releaseDate": "2015",
+        "movieLength": "2óra 1perc",
+        "director": "Paul Feig",
+        "actors": "Jude Law, Melissa McCarthy, Jason Statham",
+        "description": "A neve Susan. Susan Cooper (Melissa McCarthy). A CIA elemzője, és az egyik legjobb a szakmában. Miután partnere (Jude Law) és az ügynökség legjobb ügynöke (Jason Statham) lebukik, ő az egyetlen, akit éppen bevetésre lehetne küldeni: életében először, a terepen kell kipróbálnia magát. Hát belép egy világba, amit eddig messziről csodált és irigyelt. Elegánsnak éppen nem mondható, de nagy a szája és kemény az ökle. A világ első igazi női titkos ügynöke bevetésre indul.",
+        "icon": "thespy.PNG",
+        "image": "thespy.jpg"            
+    }   
 ]
