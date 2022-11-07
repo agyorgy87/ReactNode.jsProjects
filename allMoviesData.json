@@ -84,6 +84,30 @@
         "image": "speed.jpg" 
     },
     {
+        "movieTitle": "KINGSMAN",
+        "ageLimit": "16+",
+        "genre": "akció",
+        "releaseDate": "2015",
+        "movieLength": "2óra 10perc",
+        "director": "Matthew Vaughn",
+        "actors": "Colin Firth, Samuel L. Jackson, Mark Strong, Michael Caine, Taron Egerton",
+        "description": "Akciódús fenomenális szereposztással, többek közt Colint Firth, Samuel L. Jackson és Michael Caine szereplésével, amelyben egy csapat titkos ügynök egy utcagyereket szervez be a sorai közé.",
+        "icon": "km.PNG",
+        "image": "kingsman.jpg"
+    },
+    {
+        "movieTitle": "A SZUPERCSAPAT",
+        "ageLimit": "12+",
+        "genre": "akció",
+        "releaseDate": "2010",
+        "movieLength": "2óra",
+        "director": "Joe Carnahan",
+        "actors": "Liam Neeson, Bradley Cooper, Quinton Jackson, Shartlo Copley, Patrick Wilson ",
+        "description": "Ebben a lebilincselő akciófilmben egy korábbi különleges egység tagjainak meg kell szökniük a börtönből, hogy részt vehessenek eddigi életük legkeményebb küldetésében.",
+        "icon": "ateam.PNG",
+        "image": "ateam.jpg"
+    },
+    {
         "movieTitle": "A KÉM",
         "ageLimit": "16+",
         "genre": "vígjáték",
@@ -94,5 +118,101 @@
         "description": "A neve Susan. Susan Cooper (Melissa McCarthy). A CIA elemzője, és az egyik legjobb a szakmában. Miután partnere (Jude Law) és az ügynökség legjobb ügynöke (Jason Statham) lebukik, ő az egyetlen, akit éppen bevetésre lehetne küldeni: életében először, a terepen kell kipróbálnia magát. Hát belép egy világba, amit eddig messziről csodált és irigyelt. Elegánsnak éppen nem mondható, de nagy a szája és kemény az ökle. A világ első igazi női titkos ügynöke bevetésre indul.",
         "icon": "thespy.PNG",
         "image": "thespy.jpg"            
-    }   
+    },
+    {
+        "movieTitle": "MINDEN 6 Ó",
+        "ageLimit": "12+",
+        "genre": "vígjáték",
+        "releaseDate": "2003",
+        "movieLength": "1óra 41perc",
+        "director": "Tom Shadyac",
+        "actors": "Jim Carrey, Jennifer Aniston, Morgan Freeman, Steve Carell",
+        "description": "Bruce Nolan, a tévériporter, aki túl gyakran panaszkodik Istenre, mindenható hatlmat kap, hogy megtanulja, milyen nehéz irányítani a világot.",
+        "icon": "brucealmighty.PNG",
+        "image": "brucealmighty.jpg"            
+    },
+    {
+        "movieTitle": "TÖK ALSÓ",
+        "ageLimit": "16+",
+        "genre": "vígjáték",
+        "releaseDate": "1999",
+        "movieLength": "1óra 29perc",
+        "director": "Mike Mitchell",
+        "actors": "Rob Schneider, William Forsythe, Eddie Griffin, Arija Bareikis, Oded Fehr",
+        "description": "Az Akváriumpucoló Deuce-nak égetően nagy szüksége lenne némi készpénzre, hogy megtérítse a kárt, amit egy ügyfél malibui lakásában okozott. Úgy dönt, a csávából az egyetlen kiutat az jelenti, ha a legősibb mesterségre vált.",
+        "icon": "malegigolo.PNG",
+        "image": "malegigolo.jpg"            
+    },
+    {
+        "movieTitle": "AZ ISNTENEK A FEJÜKRE ESTEK",
+        "ageLimit": "12+",
+        "genre": "vígjáték",
+        "releaseDate": "1980",
+        "movieLength": "1óra 49perc",
+        "director": "Jamie Uys",
+        "actors": "N!xau, Marius Weyers, Sandra Prinsloo, Louw Verwey, Michael Thys, Jamie Uys",
+        "description": "A repölőből kidobott szódásüveg zűrzavart kelt a rendszerint békés afrikai busman törzs tagjai között, mivel azt hiszik róla, hogy az istenek eszköze.",
+        "icon": "thegodsmustbecrazy.PNG",
+        "image": "thegodsmustbecrazy.jpg"            
+    },
+    {
+        "movieTitle": "FEJCSERÉS TÁMADÁS",
+        "ageLimit": "12+",
+        "genre": "vígjáték",
+        "releaseDate": "2001",
+        "movieLength": "1óra 28perc",
+        "director": "George Gallo",
+        "actors": "Orlando Jones, Eddie Griffin, Gray Grubbs",
+        "description": "Daryl Chase (Jones), a derék befektetési bankár hirtelen azon kapja magát, hogy az FBI elől menekül -és személyazonosságot cserél a nagyszájú, pitiáner tolvajjal, Freddy Tiffany-val (Griffin).",
+        "icon": "doubletake.PNG",
+        "image": "doubletake.jpg"            
+    },
+    {
+        "movieTitle": "NŐI SZERVEK",
+        "ageLimit": "16+",
+        "genre": "vígjáték",
+        "releaseDate": "2013",
+        "movieLength": "1óra 58perc",
+        "director": "Paul Feig",
+        "actors": "Sandra Bullock, Mellisa McCarthy, Marlon Wayans, Michael Rapaport, Jane Curtin",
+        "description": "Sandra Bullock és Melissa McCarthy összeférhetetlen zsarukat alakítanak, akik összefognak, hogy elkapjanak egy drogbárót ebben a botrányosan vicces vígjátékban.",
+        "icon": "theheat.PNG",
+        "image": "theheat.jpg"            
+    },
+    {
+        "movieTitle": "MIKE ÉS DAVE ESKÜVŐHÖZ CSAJT KERES",
+        "ageLimit": "16+",
+        "genre": "vígjáték",
+        "releaseDate": "2016",
+        "movieLength": "1óra 39perc",
+        "director": "Jake Szymanski",
+        "actors": "Zac Efron, Anna Kendrick, Adam DeVine, Aubrey Plaza, Stephen Root, Sam Richardson",
+        "description": "Mike és Dave, a testvérpár online hirdetést ad fel, hogy rendes lányokat találjanak maguk mellé a nővérük esküvőjére.",
+        "icon": "mikeanddave.PNG",
+        "image": "mikeanddave.jpg"            
+    },
+    {
+        "movieTitle": "NÁSZ-AJÁNLAT",
+        "ageLimit": "12+",
+        "genre": "vígjáték",
+        "releaseDate": "2009",
+        "movieLength": "1óra 50perc",
+        "director": "Anne Fletcher",
+        "actors": "Sandra Bullock, Ryan Reynolds, Mary Steenburgen, Craig T. Nelson, Betty White",
+        "description": "Attól való félelmében, hogy kiutasítják, a karrierista nő (Sandra Bullock) arra kényszeríti asszisztensét (Ryan Reynolds), hogy vegye őt feleségül. Miután a fiú is megfogalmazza igényeit, a pár Alaszkába repül, hogy meggyőzzék a fiú családját.",
+        "icon": "theproposal.PNG",
+        "image": "theproposal.jpg"            
+    },
+    {
+        "movieTitle": "DRÁGÁM, ADD AZ ÉLETED!",
+        "ageLimit": "12+",
+        "genre": "vígjáték",
+        "releaseDate": "1996",
+        "movieLength": "1óra 21perc",
+        "director": "Rick Freidberg",
+        "actors": "Leslie Nielsen, Nicolette Sheridan, Charles Durning, Marcia Gay Harden, Jonh Ales",
+        "description": "WD-40 ügynök élete legnehezebb bevetésére készül, hogy megállítsa a gonosz Rancor tábornokot, mielőtt elpusztítaná a világot.",
+        "icon": "spyhard.PNG",
+        "image": "spyhard.jpg"            
+    }
 ]
