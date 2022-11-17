@@ -29,12 +29,23 @@ app.get("/all-movies", (request, response) => {
     })
 })
 
-//get movie
-app.get("/get-movie/:movieMainTitle", (request, response) => {
+//API for slideshow
+//API to access json data
+app.get("/slide-show-images", (request, response) => {
+    fileSystem.readFile("allMoviesData.json", "utf8", (error, data) => {
+        const allMovies = JSON.parse(data);
+        const moviesForSlideShow = allMovies.filter(movies => movies.wideImage);
+        const stringifiedMoviesForSlideShow = JSON.stringify(moviesForSlideShow);
+        response.end(stringifiedMoviesForSlideShow);
+    })
+})
+
+//filtered by movies title - with typing to input
+app.get("/get-movie/:movieTitle", (request, response) => {
 
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const allMoviesTitle = JSON.parse(data);
-        const filteredAllMoviesTitle = allMoviesTitle.filter(movieTitle => movieTitle.movieMainTitle === request.params.movieMainTitle);
+        const filteredAllMoviesTitle = allMoviesTitle.filter(movieTitle => movieTitle.movieTitle === request.params.movieTitle);
         
         if(filteredAllMoviesTitle.length > 0) {
             const stringifiedAllMoviesTitle = JSON.stringify(filteredAllMoviesTitle[0]);
@@ -47,49 +58,50 @@ app.get("/get-movie/:movieMainTitle", (request, response) => {
     })
 })
 
-//filtered by all movies type
-app.get("/all-movies-type/:type", (request, response) => {
-
+//filtered by all movies type - with typing to input
+app.get("/all-movies-type/:genre", (request, response) => {
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
-        const allMoviesType = JSON.parse(data);
-        const filteredAllMoviesType = allMoviesType.filter(movieType => movieType.type === request.params.type);
-        const stringifiedAllMoviesType = JSON.stringify(filteredAllMoviesType);
-        response.end(stringifiedAllMoviesType);
+        const allMoviesGenre = JSON.parse(data);
+        const filteredAllMoviesGenre = allMoviesGenre.filter(movieGenre => movieGenre.genre === request.params.genre);
+        const stringifiedAllMoviesGenre = JSON.stringify(filteredAllMoviesGenre);
+        response.end(stringifiedAllMoviesGenre);
     })
 })
 
+
 //filtered by action movies
-app.get("/all-movies-by-action/:type", (request, response) => {
+app.get("/all-movies-by-action/:genre", (request, response) => {
  
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const actionMovies = JSON.parse(data);
-        const filteredActionMovies = actionMovies.filter(action => action.type === request.params.type);
+        const filteredActionMovies = actionMovies.filter(action => action.genre === request.params.genre);
         const stringifiedActionMovies = JSON.stringify(filteredActionMovies);
         response.end(stringifiedActionMovies);
     })
 })
 
-//filtered by scifi movies
-app.get("/all-movies-by-scifi/:type", (request,response) => {
-
+//filtered by comedy movies
+app.get("/all-movies-by-comedy/:genre", (request,response) => {
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
-        const scifiMovies = JSON.parse(data);
-        const filteredScifiMovies = scifiMovies.filter(scifi => scifi.type === request.params.type);
-        const stringifiedScifiMovies = JSON.stringify(filteredScifiMovies);
-        response.end(stringifiedScifiMovies);
+        const comedyMovies = JSON.parse(data);
+        const filteredComedyMovies = comedyMovies.filter(comedy => comedy.genre === request.params.genre);
+        const stringifiedComedyMovies = JSON.stringify(filteredComedyMovies);
+        response.end(stringifiedComedyMovies);
     })
 })
 
 //filtered by fantasy movies
-app.get("/all-movies-by-fantasy/:type", (request,response) => {
+app.get("/all-movies-by-fantasy/:genre", (request,response) => {
 
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const fantasyMovies = JSON.parse(data);
-        const filteredFantasyMovies = fantasyMovies.filter(fantasy => fantasy.type === request.params.type);
+        const filteredFantasyMovies = fantasyMovies.filter(fantasy => fantasy.genre === request.params.genre);
         const stringifiedFantasyMovies = JSON.stringify(filteredFantasyMovies);
         response.end(stringifiedFantasyMovies);
     })
 })
+
+
 
 //API for icons
 app.get("/icons/:filename", function (req, res) {
@@ -99,6 +111,11 @@ app.get("/icons/:filename", function (req, res) {
 //API for images
 app.get("/img/:filename", function (req, res) {
     res.sendFile(path.join(__dirname, "img/" + req.params.filename));
+})
+
+//API for wide-images
+app.get("/wide-images/:filename", function (req,res) {
+    res.sendFile(path.join(__dirname, "wide-images/" + req.params.filename))
 })
 
 
