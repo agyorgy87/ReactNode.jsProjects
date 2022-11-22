@@ -40,9 +40,9 @@ app.get("/slide-show-images", (request, response) => {
     })
 })
 
+/*
 //filtered by movies title - with typing to input
 app.get("/get-movie/:movieTitle", (request, response) => {
-
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const allMoviesTitle = JSON.parse(data);
         const filteredAllMoviesTitle = allMoviesTitle.filter(movieTitle => movieTitle.movieTitle === request.params.movieTitle);
@@ -54,11 +54,21 @@ app.get("/get-movie/:movieTitle", (request, response) => {
             const responseString = JSON.stringify({error: "no such movie!"});
             response.end(responseString);
         }
+    })
+})
+*/
 
+//API for filtered all movies title 
+app.get("/get-movie-title/:movieTitle", (request, response) => {
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const allMoviesTitle = JSON.parse(data);
+        const filteredAllMoviesTitle = allMoviesTitle.filter(movieTitle => movieTitle.movieTitle.toLowerCase().includes(request.params.movieTitle.toLowerCase()));
+        const stringifiedFilteredMovieTitles = JSON.stringify(filteredAllMoviesTitle);
+        response.end(stringifiedFilteredMovieTitles);
     })
 })
 
-//filtered by all movies type - with typing to input
+//API for filtered by all movies type - with typing to input
 app.get("/all-movies-type/:genre", (request, response) => {
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const allMoviesGenre = JSON.parse(data);
@@ -68,8 +78,7 @@ app.get("/all-movies-type/:genre", (request, response) => {
     })
 })
 
-
-//filtered by action movies
+//API for filtered by action movies
 app.get("/all-movies-by-action/:genre", (request, response) => {
  
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
@@ -80,7 +89,7 @@ app.get("/all-movies-by-action/:genre", (request, response) => {
     })
 })
 
-//filtered by comedy movies
+//API for filtered by comedy movies
 app.get("/all-movies-by-comedy/:genre", (request,response) => {
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const comedyMovies = JSON.parse(data);
@@ -90,7 +99,7 @@ app.get("/all-movies-by-comedy/:genre", (request,response) => {
     })
 })
 
-//filtered by fantasy movies
+//API for filtered by fantasy movies
 app.get("/all-movies-by-fantasy/:genre", (request,response) => {
 
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
@@ -100,8 +109,6 @@ app.get("/all-movies-by-fantasy/:genre", (request,response) => {
         response.end(stringifiedFantasyMovies);
     })
 })
-
-
 
 //API for icons
 app.get("/icons/:filename", function (req, res) {
@@ -117,7 +124,6 @@ app.get("/img/:filename", function (req, res) {
 app.get("/wide-images/:filename", function (req,res) {
     res.sendFile(path.join(__dirname, "wide-images/" + req.params.filename))
 })
-
 
 const server = app.listen(app.get("port"), function() {
 
