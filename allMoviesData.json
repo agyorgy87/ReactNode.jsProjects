@@ -1,7 +1,7 @@
 [   
     {
         "movieTitle": "DIE HARD",
-        "ageLimit": "16+", 
+        "ageLimit": 16, 
         "genre": "akció",
         "releaseDate": 1988,
         "movieLength": 132,
@@ -13,7 +13,7 @@
     },
     {
         "movieTitle": "DIE HARD 2",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1990,
         "movieLength": 124,
@@ -25,7 +25,7 @@
     },
     {
         "movieTitle": "DIE HARD 3",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1995,
         "movieLength": 129,
@@ -33,11 +33,12 @@
         "actors": "Bruce Willis, Jeremy Irons, Samuel L. Jackson",
         "description": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
         "icon": "dh3.PNG",
-        "image": "diehard3.jpg"            
+        "image": "diehard3.jpg",   
+        "wideImage": "diehard3wide.png"          
     },   
     {
         "movieTitle": "ÁL/ARC",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1997,
         "movieLength": 139,
@@ -49,7 +50,7 @@
     },   
     {
         "movieTitle": "A FÜGGETLENSÉG NAPJA",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "akció",
         "releaseDate": 1996,
         "movieLength": 145,
@@ -61,7 +62,7 @@
     },
     {
         "movieTitle": "AZ ELNÖK KÜLÖNGÉPE",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1997,
         "movieLength": 125,
@@ -73,7 +74,7 @@
     }, 
     {
         "movieTitle": "FÉKTELENÜL",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1994,
         "movieLength": 116,
@@ -85,7 +86,7 @@
     },
     {
         "movieTitle": "KINGSMAN",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 2015,
         "movieLength": 130,
@@ -97,7 +98,7 @@
     },
     {
         "movieTitle": "A SZUPERCSAPAT",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "akció",
         "releaseDate": 2010,
         "movieLength": 120,
@@ -109,7 +110,7 @@
     },
     {
         "movieTitle": "A KÉM",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2015,
         "movieLength": 121,
@@ -117,11 +118,12 @@
         "actors": "Jude Law, Melissa McCarthy, Jason Statham",
         "description": "A neve Susan. Susan Cooper (Melissa McCarthy). A CIA elemzője, és az egyik legjobb a szakmában. Miután partnere (Jude Law) és az ügynökség legjobb ügynöke (Jason Statham) lebukik, ő az egyetlen, akit éppen bevetésre lehetne küldeni: életében először, a terepen kell kipróbálnia magát. Hát belép egy világba, amit eddig messziről csodált és irigyelt. Elegánsnak éppen nem mondható, de nagy a szája és kemény az ökle. A világ első igazi női titkos ügynöke bevetésre indul.",
         "icon": "thespy.PNG",
-        "image": "thespy.jpg"            
+        "image": "thespy.jpg",  
+        "wideImage": "spywide.PNG"              
     },
     {
         "movieTitle": "MINDEN 6 Ó",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2003,
         "movieLength": 101,
@@ -133,7 +135,7 @@
     },
     {
         "movieTitle": "TÖK ALSÓ",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 1999,
         "movieLength": 89,
@@ -145,7 +147,7 @@
     },
     {
         "movieTitle": "AZ ISNTENEK A FEJÜKRE ESTEK",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 1980,
         "movieLength": 109,
@@ -157,7 +159,7 @@
     },
     {
         "movieTitle": "FEJCSERÉS TÁMADÁS",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2001,
         "movieLength": 88,
@@ -169,7 +171,7 @@
     },
     {
         "movieTitle": "NŐI SZERVEK",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2013,
         "movieLength": 118,
@@ -181,7 +183,7 @@
     },
     {
         "movieTitle": "MIKE ÉS DAVE ESKÜVŐHÖZ CSAJT KERES",
-        "ageLimit": "16+",
+        "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2016,
         "movieLength": 99,
@@ -193,7 +195,7 @@
     },
     {
         "movieTitle": "NÁSZ-AJÁNLAT",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2009,
         "movieLength": 110,
@@ -205,7 +207,7 @@
     },
     {
         "movieTitle": "DRÁGÁM, ADD AZ ÉLETED!",
-        "ageLimit": "12+",
+        "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 1996,
         "movieLength": 81,
@@ -214,5 +216,115 @@
         "description": "WD-40 ügynök élete legnehezebb bevetésére készül, hogy megállítsa a gonosz Rancor tábornokot, mielőtt elpusztítaná a világot.",
         "icon": "spyhard.PNG",
         "image": "spyhard.jpg"            
+    },
+    {
+        "movieTitle": "ALIEN",
+        "ageLimit": 16,
+        "genre": "scifi",
+        "releaseDate": 1979,
+        "movieLength": 117,
+        "director": "Ridley Scott",
+        "actors": "Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Henry Dean Stanton, John Hurt",
+        "description": "A Ridley Scott által rendezett eredeti sci-fi klasszikusban Ripley egy gyanús segélyhívás felderítésére indul egy távoli bolgyóra, ahol szörnyű felfedezésre jut.",
+        "icon": "alien.PNG",
+        "image": "alien.jpg"            
+    },
+    {
+        "movieTitle": "A BOLGYÓ NEVE: HALÁL",
+        "ageLimit": 18,
+        "genre": "scifi",
+        "releaseDate": 1986,
+        "movieLength": 138,
+        "director": "James Cameron",
+        "actors": "Sigourney Weaver, Michael Biehn, Paul Resier, Lance Henriksen, Carrie Henn, Bill Paxton",
+        "description": "Mután hajszál híján menekül csak meg az idegentől, Ripley fél évszázaddal később kriogén álomból ébred. Ezúttal egy távoli kolóniára küldik, hogy segítsen kiirtani az elszaporodott xenomorphokat.",
+        "icon": "alien2.PNG",
+        "image": "alien2.jpg"            
+    },
+    {
+        "movieTitle": "A VÉGSŐ MEGOLDÁS HALÁL",
+        "ageLimit": 16,
+        "genre": "scifi",
+        "releaseDate": 1992,
+        "movieLength": 115,
+        "director": "David Fincher",
+        "actors": "Sigourney Weaver, Charles S. Dutton, Charles Dance, Paul McGann Brian Glover, Ralph Brown",
+        "description": "Ripley nyomában továbbra is ott van egy kíméletlen és vérszomjas idegen, miután a mentőkapszulája egy börtönbolygón ér földet.",
+        "icon": "alien3.PNG",
+        "image": "alien3.jpg"            
+    },
+    {
+        "movieTitle": "ARMAGEDDON",
+        "ageLimit": 14,
+        "genre": "scifi",
+        "releaseDate": 1998,
+        "movieLength": 115,
+        "director": "Michael Bay",
+        "actors": "Bruce Willis, Billy Bob Thornton, Liv Tyler, Ben Affleck, Will Patton, Peter Stormare",
+        "description": "Amikor a NASA rájön hogy a Földnek 18 napja van, mielőtt megsemmisíti egy Texas méretű hatalmas aszteorida, egyetlen kiutat látnak - egy olajfúrótorony mindenre elszánt kemény fickóit bízzák meg a feladattal, hogy nukleáris töltetet jutassanak az aszteorida megjába.",
+        "icon": "armageddon.PNG",
+        "image": "armageddon3.jpg"            
+    },
+    {
+        "movieTitle": "ALITA A HARC ANGYALA",
+        "ageLimit": 12,
+        "genre": "scifi",
+        "releaseDate": 2018,
+        "movieLength": 123,
+        "director": "Roberto Rodriquez",
+        "actors": "Rosa Salazar, Christoph Waltz, Mahershala Ali, Ed Skrein, Keean Johnson, Lana Condor",
+        "description": "Alita a harc angyala világraszóló kalandra invitál a rmeény és a felszabaduló erő nyomában.",
+        "icon": "alita.PNG",
+        "image": "alita.jpg"            
+    },
+    {
+        "movieTitle": "AVATAR",
+        "ageLimit": 12,
+        "genre": "scifi",
+        "releaseDate": 2009,
+        "movieLength": 162,
+        "director": "James Cameron",
+        "actors": "Sam Worthington, Zoé Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriquez, Giovanni Ribisi",
+        "description": "Az Avatar a Pandora ámulatba ejtő világába kalauzol, ahol egy féfi lélegzetelállító kalandra indul, hogy megmentse szeretteit és új otthonát.",
+        "icon": "avatar.PNG",
+        "image": "alita.jpg"            
+    },
+    {
+        "movieTitle": "BOSSZÚÁLLÓK",
+        "ageLimit": 12,
+        "genre": "scifi",
+        "releaseDate": 2012,
+        "movieLength": 145,
+        "director": "Joss Whedon",
+        "actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner",
+        "description": "A Marvel filmtörténetet ír, összehozva minden idők legütősebb szuperhősökből álló csapatát. Hőseink teszik a dolgukat, mikőzben egymást sem kímélik.",
+        "icon": "avengers.PNG",
+        "image": "avengers.jpg"            
+    },
+    {
+        "movieTitle": "RAGADOZÓ",
+        "ageLimit": 16,
+        "genre": "scifi",
+        "releaseDate": 1987,
+        "movieLength": 107,
+        "director": "John McTiernan",
+        "actors": "Arnold Schwarzenegger, Carl Weathers, Elpidia Carrilo, Bill Duke, Jesse Ventura, Sonny Landham",
+        "description": "A közép-amerikai dzsungelben egy vad, földönkívüli harcos Dutch Schaefer őrnagy titkos küldetésén lévő kommandósaira vadászik.",
+        "icon": "predator.PNG",
+        "image": "predator.jpg"            
+    },
+    {
+        "movieTitle": "MENTŐEXPEDÍCIÓ",
+        "ageLimit": 12,
+        "genre": "scifi",
+        "releaseDate": 2015,
+        "movieLength": 142,
+        "director": "Ridley Scott",
+        "actors": "Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels, Michael Pena, Kate Mara",
+        "description": "Ez a lebilincselő történet az emberi akaraterőről és a túlélési ösztönről szól, főszerepben Matt Damonnal, aki egy Marson ragadt űrhajóst játszik.",
+        "icon": "themartian.PNG",
+        "image": "predator.jpg"            
     }
+
+    
 ]
