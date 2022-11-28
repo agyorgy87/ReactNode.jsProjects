@@ -99,14 +99,14 @@ app.get("/all-movies-by-comedy/:genre", (request,response) => {
     })
 })
 
-//API for filtered by fantasy movies
-app.get("/all-movies-by-fantasy/:genre", (request,response) => {
+//API for filtered by scifi movies
+app.get("/all-movies-by-scifi/:genre", (request,response) => {
 
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
-        const fantasyMovies = JSON.parse(data);
-        const filteredFantasyMovies = fantasyMovies.filter(fantasy => fantasy.genre === request.params.genre);
-        const stringifiedFantasyMovies = JSON.stringify(filteredFantasyMovies);
-        response.end(stringifiedFantasyMovies);
+        const scifiMovies = JSON.parse(data);
+        const filteredScifiMovies = scifiMovies.filter(scifi => scifi.genre === request.params.genre);
+        const stringifiedScifiMovies = JSON.stringify(filteredScifiMovies);
+        response.end(stringifiedScifiMovies);
     })
 })
 
