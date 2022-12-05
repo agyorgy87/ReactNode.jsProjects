@@ -39,6 +39,17 @@ app.get("/slide-show-images", (request, response) => {
         response.end(stringifiedMoviesForSlideShow);
     })
 })
+/*FOR MOVIES NOT FOR A COLLECTION
+app.get("/group/:groupcollection", (request,response) => {
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const allMovies = JSON.parse(data);
+        const collections = allMovies.filter(movies => movies.group === request.params.groupcollection);
+        const stringifiedCollections = JSON.stringify(collections);
+        response.end(stringifiedCollections);
+    })
+})
+*/
+
 
 /*
 //filtered by movies title - with typing to input
