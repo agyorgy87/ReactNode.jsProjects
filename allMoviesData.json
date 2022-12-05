@@ -1,6 +1,7 @@
 [   
     {
         "movieTitle": "DIE HARD",
+        "group": "diehardcollection",
         "ageLimit": 16, 
         "genre": "akció",
         "releaseDate": 1988,
@@ -13,6 +14,7 @@
     },
     {
         "movieTitle": "DIE HARD 2",
+        "group": "diehardcollection",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1990,
@@ -25,6 +27,7 @@
     },
     {
         "movieTitle": "DIE HARD 3",
+        "group": "diehardcollection",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1995,
@@ -34,10 +37,11 @@
         "description": "A New Yorki Jhon McClane nyomozó visszatér, és élete legrosszabb napja vár rá. Egy rafinált terrorista azzal fenyegetőzik, hogy a feje tetejére állítja a várost, ha nem teljesülnek a követelései. McClane és valószerűtlen hős társa az elfuserált bújócska közepén találja magát.",
         "icon": "dh3.PNG",
         "image": "diehard3.jpg",   
-        "wideImage": "diehard3wide.png"          
+        "wideImage": "diehard.png"          
     },   
     {
         "movieTitle": "ÁL/ARC",
+        "group":"",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1997,
@@ -50,6 +54,7 @@
     },   
     {
         "movieTitle": "A FÜGGETLENSÉG NAPJA",
+        "group":"",
         "ageLimit": 12,
         "genre": "akció",
         "releaseDate": 1996,
@@ -62,6 +67,7 @@
     },
     {
         "movieTitle": "AZ ELNÖK KÜLÖNGÉPE",
+        "group":"",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1997,
@@ -74,6 +80,7 @@
     }, 
     {
         "movieTitle": "FÉKTELENÜL",
+        "group":"",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 1994,
@@ -86,6 +93,7 @@
     },
     {
         "movieTitle": "KINGSMAN",
+        "group":"",
         "ageLimit": 16,
         "genre": "akció",
         "releaseDate": 2015,
@@ -98,6 +106,7 @@
     },
     {
         "movieTitle": "A SZUPERCSAPAT",
+        "group":"",
         "ageLimit": 12,
         "genre": "akció",
         "releaseDate": 2010,
@@ -110,6 +119,7 @@
     },
     {
         "movieTitle": "A KÉM",
+        "group":"",
         "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2015,
@@ -123,6 +133,7 @@
     },
     {
         "movieTitle": "MINDEN 6 Ó",
+        "group":"",
         "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2003,
@@ -135,6 +146,7 @@
     },
     {
         "movieTitle": "TÖK ALSÓ",
+        "group":"",
         "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 1999,
@@ -147,6 +159,7 @@
     },
     {
         "movieTitle": "AZ ISNTENEK A FEJÜKRE ESTEK",
+        "group":"",
         "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 1980,
@@ -159,6 +172,7 @@
     },
     {
         "movieTitle": "FEJCSERÉS TÁMADÁS",
+        "group":"",
         "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2001,
@@ -171,6 +185,7 @@
     },
     {
         "movieTitle": "NŐI SZERVEK",
+        "group":"",
         "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2013,
@@ -183,6 +198,7 @@
     },
     {
         "movieTitle": "MIKE ÉS DAVE ESKÜVŐHÖZ CSAJT KERES",
+        "group":"",
         "ageLimit": 16,
         "genre": "vígjáték",
         "releaseDate": 2016,
@@ -195,6 +211,7 @@
     },
     {
         "movieTitle": "NÁSZ-AJÁNLAT",
+        "group":"",
         "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 2009,
@@ -207,6 +224,7 @@
     },
     {
         "movieTitle": "DRÁGÁM, ADD AZ ÉLETED!",
+        "group":"",
         "ageLimit": 12,
         "genre": "vígjáték",
         "releaseDate": 1996,
@@ -219,6 +237,7 @@
     },
     {
         "movieTitle": "ALIEN",
+        "group":"aliencollection",
         "ageLimit": 16,
         "genre": "scifi",
         "releaseDate": 1979,
@@ -231,6 +250,7 @@
     },
     {
         "movieTitle": "A BOLGYÓ NEVE: HALÁL",
+        "group":"aliencollection",
         "ageLimit": 18,
         "genre": "scifi",
         "releaseDate": 1986,
@@ -243,6 +263,7 @@
     },
     {
         "movieTitle": "A VÉGSŐ MEGOLDÁS HALÁL",
+        "group":"aliencollection",
         "ageLimit": 16,
         "genre": "scifi",
         "releaseDate": 1992,
@@ -255,6 +276,7 @@
     },
     {
         "movieTitle": "ARMAGEDDON",
+        "group":"",
         "ageLimit": 14,
         "genre": "scifi",
         "releaseDate": 1998,
@@ -263,10 +285,11 @@
         "actors": "Bruce Willis, Billy Bob Thornton, Liv Tyler, Ben Affleck, Will Patton, Peter Stormare",
         "description": "Amikor a NASA rájön hogy a Földnek 18 napja van, mielőtt megsemmisíti egy Texas méretű hatalmas aszteorida, egyetlen kiutat látnak - egy olajfúrótorony mindenre elszánt kemény fickóit bízzák meg a feladattal, hogy nukleáris töltetet jutassanak az aszteorida megjába.",
         "icon": "armageddon.PNG",
-        "image": "armageddon3.jpg"            
+        "image": "armageddon.jpg"            
     },
     {
         "movieTitle": "ALITA A HARC ANGYALA",
+        "group":"",
         "ageLimit": 12,
         "genre": "scifi",
         "releaseDate": 2018,
@@ -279,6 +302,7 @@
     },
     {
         "movieTitle": "AVATAR",
+        "group":"",
         "ageLimit": 12,
         "genre": "scifi",
         "releaseDate": 2009,
@@ -287,10 +311,11 @@
         "actors": "Sam Worthington, Zoé Saldana, Sigourney Weaver, Stephen Lang, Michelle Rodriquez, Giovanni Ribisi",
         "description": "Az Avatar a Pandora ámulatba ejtő világába kalauzol, ahol egy féfi lélegzetelállító kalandra indul, hogy megmentse szeretteit és új otthonát.",
         "icon": "avatar.PNG",
-        "image": "alita.jpg"            
+        "image": "avatar.jpg"             
     },
     {
         "movieTitle": "BOSSZÚÁLLÓK",
+        "group":"",
         "ageLimit": 12,
         "genre": "scifi",
         "releaseDate": 2012,
@@ -299,10 +324,12 @@
         "actors": "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner",
         "description": "A Marvel filmtörténetet ír, összehozva minden idők legütősebb szuperhősökből álló csapatát. Hőseink teszik a dolgukat, mikőzben egymást sem kímélik.",
         "icon": "avengers.PNG",
-        "image": "avengers.jpg"            
+        "image": "avengers.jpg",
+        "wideImage": "avengers.PNG"            
     },
     {
         "movieTitle": "RAGADOZÓ",
+        "group":"",
         "ageLimit": 16,
         "genre": "scifi",
         "releaseDate": 1987,
@@ -315,6 +342,7 @@
     },
     {
         "movieTitle": "MENTŐEXPEDÍCIÓ",
+        "group":"",
         "ageLimit": 12,
         "genre": "scifi",
         "releaseDate": 2015,
@@ -323,8 +351,6 @@
         "actors": "Matt Damon, Jessica Chastain, Kristen Wiig, Jeff Daniels, Michael Pena, Kate Mara",
         "description": "Ez a lebilincselő történet az emberi akaraterőről és a túlélési ösztönről szól, főszerepben Matt Damonnal, aki egy Marson ragadt űrhajóst játszik.",
         "icon": "themartian.PNG",
-        "image": "predator.jpg"            
-    }
-
-    
+        "image": "themartian.jpg"            
+    }    
 ]
