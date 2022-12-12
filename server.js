@@ -29,6 +29,18 @@ app.get("/all-movies", (request, response) => {
     })
 })
 
+//API for collection movies
+app.get("/collection-movies", (request, response) => {
+    fileSystem.readFile("moviesCollectionData.json", "utf8", (error,data) => {
+        if(error){
+            let errorResponse = { error: "A fájl olvasása közben hiba történt."}
+            response.end(JSON.stringify(errorResponse));
+        } else {
+            response.end(data);
+        }
+    })
+})
+
 //API for slideshow
 //API to access json data
 app.get("/slide-show-images", (request, response) => {
@@ -39,16 +51,6 @@ app.get("/slide-show-images", (request, response) => {
         response.end(stringifiedMoviesForSlideShow);
     })
 })
-/*FOR MOVIES NOT FOR A COLLECTION
-app.get("/group/:groupcollection", (request,response) => {
-    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
-        const allMovies = JSON.parse(data);
-        const collections = allMovies.filter(movies => movies.group === request.params.groupcollection);
-        const stringifiedCollections = JSON.stringify(collections);
-        response.end(stringifiedCollections);
-    })
-})
-*/
 
 
 /*
@@ -112,12 +114,22 @@ app.get("/all-movies-by-comedy/:genre", (request,response) => {
 
 //API for filtered by scifi movies
 app.get("/all-movies-by-scifi/:genre", (request,response) => {
-
     fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
         const scifiMovies = JSON.parse(data);
         const filteredScifiMovies = scifiMovies.filter(scifi => scifi.genre === request.params.genre);
         const stringifiedScifiMovies = JSON.stringify(filteredScifiMovies);
         response.end(stringifiedScifiMovies);
+    })
+})
+
+
+//
+app.get("/group/:groupcollection", (request,response) => {
+    fileSystem.readFile("allMoviesData.json", "utf8", (error,data) => {
+        const allMovies = JSON.parse(data);
+        const collections = allMovies.filter(movies => movies.group === request.params.groupcollection);
+        const stringifiedCollections = JSON.stringify(collections);
+        response.end(stringifiedCollections);
     })
 })
 
@@ -134,6 +146,11 @@ app.get("/img/:filename", function (req, res) {
 //API for wide-images
 app.get("/wide-images/:filename", function (req,res) {
     res.sendFile(path.join(__dirname, "wide-images/" + req.params.filename))
+})
+
+//API for collection icons
+app.get("/collection-icons/:filename", function (req, res) {
+    res.sendFile(path.join(__dirname, "collection-icons/" + req.params.filename));
 })
 
 const server = app.listen(app.get("port"), function() {
