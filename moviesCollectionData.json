@@ -1,0 +1,12 @@
+[
+    {
+        "collectionIcon": "diehardcollection.PNG",
+        "collectionBackground": "diehardcollectionbackground.jpg",
+        "group": "diehardcollection"
+    },
+    {
+        "collectionIcon": "aliencollection.PNG",
+        "collectionBackground": "aliencollectionbackground.jpg",
+        "group": "aliencollection"
+    }
+]
