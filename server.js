@@ -153,6 +153,11 @@ app.get("/collection-icons/:filename", function (req, res) {
     res.sendFile(path.join(__dirname, "collection-icons/" + req.params.filename));
 })
 
+//API for collection backgrounds
+app.get("/collection-backgrounds/:filename", function (req, res) {
+    res.sendFile(path.join(__dirname, "collection-images/" + req.params.filename));
+})
+
 const server = app.listen(app.get("port"), function() {
 
     let host = server.address().address
