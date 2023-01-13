@@ -42,7 +42,6 @@ app.get("/collection-movies", (request, response) => {
 })
 
 //API for slideshow
-//API to access json data
 app.get("/slide-show-images", (request, response) => {
     fileSystem.readFile("allMoviesData.json", "utf8", (error, data) => {
         const allMovies = JSON.parse(data);
