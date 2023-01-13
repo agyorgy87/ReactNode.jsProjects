@@ -8,7 +8,7 @@ const path = require("path");
 app.use(express.static("assets"));
 app.use(cors());
 app.use(express.json());
-app.set("port", 4000);
+app.set("port", 80);
 
 app.get("/", (request,response) => {
     const responseObject = {
