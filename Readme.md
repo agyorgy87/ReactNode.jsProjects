@@ -1,5 +1,5 @@
-1.folder -> 
-2.*npm init -> package.json -> main
+INSTALLED PACKAGES:
+1.*npm init -> package.json -> main
 2.*npm install express
 3.*npm install nodemon
 
